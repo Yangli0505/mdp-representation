@@ -11,7 +11,8 @@ Left columns are the state variables and the right column is the reward values i
 The representation of the reward function with `decision trees` is very similar to the representation of transition functions. Indeed, the semantics of the internal nodes and edges are the same. Only the values attached to the leaves of the tree are different: rather than probabilities, the leaves represent real numbers.
 
 Figure 4.4 shows the reward function represented with a table and DT
-<image src="images/DT-reward.png" width="80%" height="80%"/>
+
+<image src="images/DT-reward.png" width="70%" height="70%"/>
 
 
 
