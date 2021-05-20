@@ -1,0 +1,2 @@
+
+Representation of **transition function**
