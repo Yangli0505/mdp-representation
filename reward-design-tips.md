@@ -40,8 +40,10 @@
 + Solution
   + Exploitation of positive samples
   + Use GA to learn policy
-  
- **Abnormal Agent Behavior**
+
+<image src="images/sparse-reward.png" width="40%" height ="40%"/>
+
+**Abnormal Agent Behavior**
 
 + Risky, this happens due to `lack of penalty on risk events`
 + Greedy, move forward and then go back, since it gets more cumulative rewards than reaching the goals. In this case, assigning a penalty to this greedy behavior is needed. It is better to **assign negative values, i.e., the penalty for the auxiliary rewards**.
