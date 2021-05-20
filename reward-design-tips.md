@@ -47,4 +47,10 @@
 
 + Risky, this happens due to `lack of penalty on risk events`
 + Greedy, move forward and then go back, since it gets more cumulative rewards than reaching the goals. In this case, assigning a penalty to this greedy behavior is needed. It is better to **assign negative values, i.e., the penalty for the auxiliary rewards**.
+
+<image src="images/greedy-agent.png" width="40%" height ="40%"/>
+
 + Timid: this happens when `cumulative penalties` are more than the rewards of `main rewards`, which makes the agent stay still to avoid penalities, lost in suboptimal
+
+<image src="images/timid-agent.png" width="40%" height ="40%"/>
+
